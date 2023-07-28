@@ -83,7 +83,7 @@ To access any project you are willing to view , please proceed like this:
 
 ## Author
 
-* **Pericles Adjovi** <[ahmedfouadlagha](https://github.com/ahmedfouadlagha)>
+* **Ahmed Fouad LAGHA** <[ahmedfouadlagha](https://github.com/ahmedfouadlagha)>
 
 
 # More Resources
