@@ -2,10 +2,11 @@
 #include <stdarg.h>
 
 /**
- * sum_them_all - adds all the numbers
- * @n: the number of parameters passed
- * Return: Always 0
- */
+*sum_them_all - sums all its parameters
+*@n: first parameter
+*Return: 0 if n is null
+* or sum of parameters in other case
+*/
 
 int sum_them_all(const unsigned int n, ...)
 {
