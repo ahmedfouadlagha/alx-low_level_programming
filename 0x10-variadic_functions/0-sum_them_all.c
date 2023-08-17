@@ -3,24 +3,27 @@
 
 /**
 *sum_them_all - sums all its parameters
-*@n: first parameter
-*Return: 0 if n is null
-* or sum of parameters in other case
+*
+*@n: number of the numbers we want to sum
+*
+*Return: sum
 */
 
 int sum_them_all(const unsigned int n, ...)
 {
-	int sum = 0;
+	int sum;
 	unsigned int i;
-	va_list ap;
-	va_start(ap, n);
-	if (n != 0){
-		for (i = 0; i < n; i++)
-			sum += va_arg(ap, int);
-	}else{
+	va_list args;
+
+	if (n == 0)
 		return (0);
+	
+	va_start(args, n);
+	sum = 0;
+	for (i = 0; i < n; i++){
+		sum = sum + va_arg(args, int);
 	}
 		
-	va_end(ap);
+	va_end(args);
 	return (sum);
 }
