@@ -1,12 +1,12 @@
 #include <stdarg.h>
 
 /**
-*sum_them_all - sums all its parameters
-*
-*@n: number of the numbers we want to sum
-*
-*Return: sum
-*/
+ *sum_them_all - sums all its parameters
+ *
+ *@n: number of the numbers we want to sum
+ *
+ *Return: sum
+ */
 
 int sum_them_all(const unsigned int n, ...)
 {
